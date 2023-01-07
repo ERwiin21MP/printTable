@@ -1,6 +1,6 @@
 Librería para imprimir tablas
 
-Instalación
+<h1>Instalación<h1><br>
 `pip install ERlib`
 
 Para imprimir tu tabla simplemente tienes que crear tu tabla y mandar a llamar a la función, puedes colocar un título a la tabla el cual si lo colocas se imprimirá primero el título y después la tabla, la tabla se imprime con el estilo de salida de MySQL.
