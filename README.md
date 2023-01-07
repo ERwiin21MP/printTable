@@ -1,13 +1,22 @@
-<h1>Librería para imprimir tablas</h1>
+# Librería para imprimir tablas
 
-<h2>Instalación</h2><br>
+## Instalación
+
+Utilice el siguiente comando en la terminal para la instalación de la librería.
+
 `pip install ERlib`
 
-<p>Para imprimir tu tabla simplemente tienes que crear tu tabla y mandar a llamar a la función, puedes colocar un título a la tabla el cual si lo colocas se imprimirá primero el título y después la tabla, la tabla se imprime con el estilo de salida de MySQL.</p>
+## Uso
+Para imprimir su tabla simplemente tienes que crear tu tabla y mandar a llamar a la función `printTable(Tabla)`, puedes colocar un título a la tabla el cual si lo colocas se imprimirá primero el título y después la tabla.
 
-<h2>Ejemplo de uso:</h2>
+## Parámetros
 
-`from ERlib import printTable
+Se utlizan dos parámetros:
+
+
+## Ejemplo de uso:
+
+from ERlib import printTable
 
 TituloDeLaTabla = "Los equipos con más Champions League"
 
@@ -20,7 +29,7 @@ Tabla = [
     ["5°", "Fútbol Club Barcelona", 5]
 ]
 
-printTable(Tabla, TituloDeLaTabla)`
+printTable(Tabla, TituloDeLaTabla)
 
 Salida:
 
