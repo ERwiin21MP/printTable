@@ -15,7 +15,8 @@ Se utlizan dos parámetros:
 
 
 ## Ejemplo de uso:
-
+### Código
+```python
 from ERlib import printTable
 
 TituloDeLaTabla = "Los equipos con más Champions League"
@@ -30,9 +31,10 @@ Tabla = [
 ]
 
 printTable(Tabla, TituloDeLaTabla)
+```
+### Salida:
 
-Salida:
-
+``` out
 ****** Los equipos con más Champions League *******
 +----------+----------------------------+---------+
 | Posición | Equipo                     | Títulos |
@@ -47,3 +49,4 @@ Salida:
 +----------+----------------------------+---------+
 | 5°       | Fútbol Club Barcelona      | 5       |
 +----------+----------------------------+---------+
+```
