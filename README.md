@@ -12,7 +12,10 @@ Para imprimir su tabla simplemente tienes que crear tu tabla y mandar a llamar a
 ## Parámetros
 
 Se utlizan dos parámetros:
+`printTable(Tabla, TituloDeLaTabla)`
 
+Tabla: es la lista de listas a imprimir.
+TituloDeLaTabla: es el titulo que apararecera al inicio de la tabla.
 
 ## Ejemplo de uso:
 ### Código
